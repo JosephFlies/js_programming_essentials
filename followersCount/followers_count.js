@@ -17,3 +17,9 @@ function checkCountValue() {
 function displayCount() {
     document.getElementById('countDisplay').innerHTML = count;
 }
+
+function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
+    alert("Your account has been reseted");
+}
